@@ -1,0 +1,29 @@
+function Navbar() {
+  return (
+    <>
+      <div className="announcement-bar">
+        Now booking Financial Clarity Sessions
+      </div>
+
+      <header className="navbar">
+        <div className="nav-container">
+          <div className="logo">Dove Financial</div>
+
+          <nav className="nav-links">
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#workshops">Workshops</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <a href="#contact" className="nav-button">
+            Book Now
+          </a>
+        </div>
+      </header>
+    </>
+  )
+}
+
+export default Navbar
