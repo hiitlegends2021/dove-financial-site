@@ -18,6 +18,7 @@ import ProductsPage from "./pages/ProductsPage";
 import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import CashFlowRescue from "./pages/CashFlowRescue";
+import ThankYouPage from "./pages/ThankYouPage";
 
 function HomePage() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cash-flow-rescue" element={<CashFlowRescue />} />
+        <Route path="/thank-you" element={<ThankYouPage />} />
       </Routes>
 
       <Footer />

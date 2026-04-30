@@ -40,11 +40,8 @@ function Navbar() {
               Shop Tools
             </a>
 
-            <Link
-              to="/cash-flow-rescue"
-              className="nav-cta"
-              onClick={() => track("Cash Flow CTA Clicked")}
-            >
+            
+              <Link to="/cash-flow-rescue" className="nav-cta">
               Book Now
             </Link>
           </div>
@@ -53,6 +50,7 @@ function Navbar() {
       </header>
     </>
   );
-}
+}; 
+
 
 export default Navbar;
