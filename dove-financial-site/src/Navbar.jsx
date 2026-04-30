@@ -3,25 +3,29 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
+      {/* Announcement Bar */}
       <div className="announcement-bar">
-        Shop financial tools, reserve your workshop seat, and build clarity today.
+        Shop financial tools, reserve your workshop seat
       </div>
 
       <header className="navbar">
         <div className="nav-container">
+
           {/* Logo */}
           <Link to="/" className="logo-wrap">
-            <div className="logo-icon">🕊️</div>
+            <div className="logo-icon">🕊</div>
             <div className="logo-text">Dove Financial</div>
           </Link>
 
           {/* Navigation */}
           <nav className="nav-links">
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#products">Products</a>
-            <a href="#workshops">Workshops</a>
-            <a href="#contact">Contact</a>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/services">Services</Link>
+            <Link to="/products">Products</Link>
+            <Link to="/workshop">Workshop</Link>
+            <Link to="/contact">Contact</Link>
+            <Link to="/cash-flow-rescue">Cash Flow Rescue</Link>
           </nav>
 
           {/* CTA Buttons */}
@@ -31,21 +35,20 @@ function Navbar() {
               target="_blank"
               rel="noreferrer"
               className="nav-shop-btn"
-              onClick={() => track("Shop Tools Clicked", { placement: "navbar" })}
+              onClick={() => track("Shop Tools Clicked")}
             >
               Shop Tools
             </a>
 
-            <a
-              href="https://form.jotform.com/261102442442039"
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              to="/cash-flow-rescue"
               className="nav-cta"
-              onClick={() => track("Workshop Registration Clicked",  { placement: "navbar" })}
+              onClick={() => track("Cash Flow CTA Clicked")}
             >
               Book Now
-            </a>
+            </Link>
           </div>
+
         </div>
       </header>
     </>
