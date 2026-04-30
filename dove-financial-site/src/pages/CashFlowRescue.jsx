@@ -84,18 +84,19 @@ export default function CashFlowRescue() {
       <section className="cfr-final">
         <h2>Stop Guessing Your Money</h2>
         <p>Let’s fix your cash flow together.</p>
-
-        <button 
-          className="cfr-cta large"
-          onClick={() => window.location.href = "/contact"}
-        >
-          Book Your Cash Flow Rescue Session
-        </button>
+        <button
+  className="cfr-cta large"
+  onClick={() => {
+    window.location.href = "https://buy.stripe.com/3c14gs3DSddA3";
+  }}
+>
+  Book Your Cash Flow Rescue Session
+</button>
         <p style={{ marginTop: "10px", opacity: 0.7 }}>
 Trusted by individuals and business owners building real financial clarity.
 </p>
       </section>
 
     </div>
-  );
+          );
 }
