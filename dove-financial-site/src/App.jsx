@@ -1,48 +1,13 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-
-
-import Navbar from "./Navbar";
-import Hero from "./Hero";
-import Services from "./Services";
-import Products from "./Products";
-import Framework from "./Framework";
-import Audience from "./Audience";
-import WhyDove from "./WhyDove";
-import Workshops from "./Workshops";
-import Testimonials from "./Testimonials";
-import CTASection from "./CTASection";
-import Footer from "./Footer";
-
-function HomePage() {
-  return (
-    <>
-      <Hero />
-      <Services />
-      <Products />
-      <Framework />
-      <Audience />
-      <WhyDove />
-      <Workshops />
-      <Testimonials />
-      <CTASection />
-    </>
-  );
-}
+import CashFlowRescue from "./pages/CashFlowRescue";
 
 function App() {
   return (
-    <>
-      <Navbar />
-
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-
-      <Footer />
-
-      
-    </>
+    <Routes>
+      <Route path="/" element={<h1 style={{ padding: 40 }}>Home Works</h1>} />
+      <Route path="/cash-flow-rescue" element={<CashFlowRescue />} />
+    </Routes>
   );
 }
 

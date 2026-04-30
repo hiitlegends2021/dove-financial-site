@@ -1,0 +1,101 @@
+.cfr-container {
+  background: #0b0b0f;
+  color: white;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.cfr-hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.cfr-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cfr-hero p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  opacity: 0.8;
+}
+
+/* CTA */
+.cfr-cta {
+  margin-top: 30px;
+  padding: 14px 28px;
+  background: gold;
+  border: none;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.cfr-cta.large {
+  font-size: 18px;
+}
+
+/* SECTIONS */
+.cfr-section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.cfr-section h2 {
+  margin-bottom: 20px;
+}
+
+.cfr-section ul {
+  line-height: 2;
+}
+
+/* HIGHLIGHT */
+.highlight {
+  background: rgba(255, 215, 0, 0.05);
+}
+
+/* GRID */
+.cfr-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cfr-card {
+  flex: 1;
+  min-width: 200px;
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* FINAL */
+.cfr-final {
+  text-align: center;
+  padding: 80px 20px;
+}
+.cfr-hero h1 {
+  font-size: 56px;
+  margin-bottom: 16px;
+}
+
+.cfr-hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.cfr-section {
+  padding: 80px 20px;
+}
+
+.cfr-section h2 {
+  font-size: 32px;
+}
+.cfr-section {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}

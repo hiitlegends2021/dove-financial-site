@@ -1,0 +1,264 @@
+.cfr-page {
+  background: #050505;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.cfr-hero {
+  padding: 90px 24px 70px;
+  text-align: center;
+  background:
+    radial-gradient(circle at top, rgba(212, 175, 55, 0.18), transparent 38%),
+    linear-gradient(180deg, #0a0a0a, #050505);
+}
+
+.cfr-badge,
+.cfr-label {
+  display: inline-block;
+  color: #d4af37;
+  border: 1px solid rgba(212, 175, 55, 0.45);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.cfr-hero h1 {
+  max-width: 980px;
+  margin: 0 auto 22px;
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.cfr-hero h1 span {
+  display: block;
+  color: #d4af37;
+}
+
+.cfr-hero p {
+  max-width: 760px;
+  margin: 0 auto;
+  color: #d8d8d8;
+  font-size: 1.15rem;
+  line-height: 1.7;
+}
+
+.cfr-actions {
+  margin-top: 34px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.cfr-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 14px 22px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.cfr-btn:hover {
+  transform: translateY(-2px);
+}
+
+.cfr-btn.primary {
+  background: linear-gradient(135deg, #d4af37, #f4e18a);
+  color: #050505;
+}
+
+.cfr-btn.secondary {
+  border: 1px solid rgba(212, 175, 55, 0.55);
+  color: #ffffff;
+}
+
+.cfr-trust {
+  margin-top: 22px !important;
+  color: #bdbdbd !important;
+  font-size: 0.95rem !important;
+}
+
+.cfr-section {
+  padding: 72px 24px;
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.cfr-section h2,
+.cfr-final h2,
+.cfr-offer h2 {
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.05;
+  margin: 0 0 22px;
+}
+
+.cfr-pain h2 {
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.cfr-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.cfr-card {
+  background: linear-gradient(180deg, #141414, #0b0b0b);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 22px;
+  padding: 22px;
+  color: #eeeeee;
+  line-height: 1.55;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+.cfr-solution {
+  max-width: none;
+  background: #0b0b0b;
+  border-top: 1px solid rgba(212, 175, 55, 0.2);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.cfr-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cfr-content p {
+  color: #d6d6d6;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.cfr-content strong {
+  display: block;
+  margin-top: 22px;
+  color: #d4af37;
+  font-size: 1.35rem;
+}
+
+.cfr-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.cfr-step {
+  background: #101010;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  border-radius: 22px;
+  padding: 24px;
+}
+
+.cfr-step span {
+  color: #d4af37;
+  font-size: 0.95rem;
+  font-weight: 900;
+}
+
+.cfr-step h3 {
+  margin: 12px 0 10px;
+  font-size: 1.35rem;
+}
+
+.cfr-step p,
+.cfr-included p,
+.cfr-final p,
+.cfr-offer p {
+  color: #d7d7d7;
+  line-height: 1.65;
+}
+
+.cfr-results {
+  background: #090909;
+  border-radius: 30px;
+  border: 1px solid rgba(212, 175, 55, 0.22);
+}
+
+.cfr-results ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 14px;
+}
+
+.cfr-results li {
+  background: #121212;
+  border-left: 4px solid #d4af37;
+  border-radius: 14px;
+  padding: 16px 18px;
+  color: #eeeeee;
+}
+
+.cfr-offer {
+  padding: 72px 24px;
+}
+
+.cfr-offer-box {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid rgba(212, 175, 55, 0.4);
+  border-radius: 34px;
+  padding: 44px 26px;
+  background:
+    radial-gradient(circle at top, rgba(212, 175, 55, 0.16), transparent 45%),
+    #0b0b0b;
+}
+
+.cfr-price {
+  color: #d4af37;
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 22px 0;
+}
+
+.cfr-small {
+  font-size: 0.92rem;
+  margin-top: 18px;
+}
+
+.cfr-final {
+  padding: 80px 24px 95px;
+  text-align: center;
+  background: linear-gradient(180deg, #050505, #111111);
+}
+
+.cfr-final p {
+  max-width: 680px;
+  margin: 0 auto 28px;
+}
+
+@media (max-width: 900px) {
+  .cfr-grid,
+  .cfr-steps {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .cfr-hero {
+    padding-top: 68px;
+  }
+
+  .cfr-grid,
+  .cfr-steps {
+    grid-template-columns: 1fr;
+  }
+
+  .cfr-btn {
+    width: 100%;
+  }
+
+  .cfr-section {
+    padding: 56px 18px;
+  }
+}
