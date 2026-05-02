@@ -136,6 +136,12 @@
   line-height: 1.65;
   margin-bottom: 24px;
 }
+.tool-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border-color: rgba(212,175,55,0.4);
+    transition: all 0.25s ease;
+}
 
 .card-btn {
   background: #ffffff;
