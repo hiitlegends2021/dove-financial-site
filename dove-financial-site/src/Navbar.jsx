@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import "./Navbar.css";
 function Navbar() {
   return (
     <>
@@ -30,15 +30,13 @@ function Navbar() {
 
           {/* CTA Buttons */}
           <div className="nav-actions">
-            <a
-              href="https://payhip.com/dovehub"
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              to="/tools"
               className="nav-shop-btn"
               onClick={() => track("Shop Tools Clicked")}
             >
               Shop Tools
-            </a>
+            </Link>
 
             
               <Link to="/cash-flow-rescue" className="nav-cta">
