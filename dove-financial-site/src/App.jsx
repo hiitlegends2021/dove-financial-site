@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import WorkshopLanding from "./pages/WorkshopLanding";
 
 import Navbar from "./Navbar";
 import Hero from "./Hero";
@@ -19,6 +20,7 @@ import ContactPage from "./pages/ContactPage";
 import AboutPage from "./pages/AboutPage";
 import CashFlowRescue from "./pages/CashFlowRescue";
 import ThankYouPage from "./pages/ThankYouPage";
+import ToolsHub from "./pages/ToolsHub";
 
 function HomePage() {
   return (
@@ -39,6 +41,8 @@ function HomePage() {
 function App() {
   return (
     <>
+      <WorkshopLanding />
+
       <Navbar />
 
       <Routes>
@@ -49,6 +53,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cash-flow-rescue" element={<CashFlowRescue />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
+        <Route path="/workshop" element={<WorkshopLanding />} /> 
+        <Route path="/tools" element={<ToolsHub />} />
       </Routes>
 
       <Footer />

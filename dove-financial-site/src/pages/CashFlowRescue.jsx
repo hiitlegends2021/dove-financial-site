@@ -26,7 +26,7 @@ export default function CashFlowRescue() {
             rel="noopener noreferrer"
             className="cfr-cta pulse"
           >
-            Book Your Cash Flow Rescue Session — $57
+            Reserve My Session — $57
           </a>
 
           <p className="cfr-note">
