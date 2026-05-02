@@ -41,7 +41,7 @@ function HomePage() {
 function App() {
   return (
     <>
-      <WorkshopLanding />
+      
 
       <Navbar />
 
@@ -53,7 +53,7 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/cash-flow-rescue" element={<CashFlowRescue />} />
         <Route path="/thank-you" element={<ThankYouPage />} />
-        <Route path="/workshop" element={<WorkshopLanding />} /> 
+        <Route path="/workshop" element={<WorkshopLanding />} />
         <Route path="/tools" element={<ToolsHub />} />
       </Routes>
 
