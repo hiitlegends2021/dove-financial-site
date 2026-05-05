@@ -21,7 +21,7 @@ export default function CashFlowRescue() {
 
         <div className="cashflow-cta-row">
           <a
-            href="YOUR_CHECKOUT_LINK_HERE"
+            href="https://buy.stripe.com/3cI4gs3DSddA38K9JZ0Ny01"
             className="cashflow-primary-btn"
           >
             Start My Cash Flow Rescue — $117
@@ -149,7 +149,7 @@ export default function CashFlowRescue() {
           </p>
 
           <a
-            href="YOUR_CHECKOUT_LINK_HERE"
+            href="https://buy.stripe.com/3cI4gs3DSddA38K9JZ0Ny01"
             className="cashflow-primary-btn"
           >
             Reserve My Session — $117
@@ -171,7 +171,7 @@ export default function CashFlowRescue() {
         </p>
 
         <a
-          href="https://buy.stripe.com/3c14gs3DSddA38K9JZ0Ny01"
+          href="https://buy.stripe.com/3cI4gs3DSddA38K9JZ0Ny01"
           className="cashflow-primary-btn"
         >
           Start My Cash Flow Rescue
